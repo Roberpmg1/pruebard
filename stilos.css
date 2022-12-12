@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(LOL.JPG);
+    overflow: hidden;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    background-image: url(wave.png);
+    background-size: 1920px x 1080px;
+    animation: wave 10s linear infinite;
+
+}
+
+@keyframes wave{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+
+        background-position-x: 1000px;
+    }
+
+
+}
+
+
+
+   .texto1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+text-decoration: none;
+margin-top: 100px;
+
+ 
+ 
+  
+   }
+
+  
+   .imagen{
+width: 400px;
+height: 400px;
+
+
+   }
+
+   .contenedor{
+    display: inline-flex;
+   
+   }
+
+
+
+    .texto1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+text-decoration: none;
+margin-top: 100px;
+
+ 
+ 
+  
+   }
+
+  
+   .imagen{
+width: 400px;
+height: 400px;
+
+
+   }
+
+   .contenedor1{
+display: inline-flex;
+   
+
+   
+   }
+
+
+
+   .texto2 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+text-decoration: none;
+margin-top: 100px;
+
+
+
+ 
+ 
+  
+   }
+
+  
+   .imagen2{
+width: 400px;
+height: 400px;
+
+
+
+
+   }
+
+   
+
+
+
+  
+
+
+
+ 
+  
+    
+    header{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(#);
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    }
+    
+    .nav.active{
+    
+    background: #fff;
+    padding: 15px;
+    
+    }
+    .nav.active .logo,
+    .nav.active a {
+    
+    color: #000;
+    
+    }
+    
+    .nav.active a:hover{
+    
+    background: #000;
+    color: #fff;
+    
+    }
+    
+    
+    .logo1{
+    
+border-radius: 100%;
+
+    }
+    
+    .menu{
+    
+    display: flex;
+    
+    }
+    .menu il{
+    
+    list-style: none;
+    margin: 10px;
+    
+    }
+    .menu il a{
+    
+    color: rgb(2, 46, 141);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    transition: all 0.5s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .menu il a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+    }
+    
+    .scrol{
+    
+    height: 100px;
+    
+    }
